@@ -37,9 +37,7 @@ const Header = () => {
                 <p className="text__muted description">
                     Hi, I'm Supun Gamage, a passionate software developer with a knack for creating innovative solutions. I love coding and am always eager to learn new technologies.
                 </p>
-                <div className="facts__wrapper">
-                  <Facts />
-                </div>
+                <Facts />
                 <SocialHandles />
                 </div>
             </div>

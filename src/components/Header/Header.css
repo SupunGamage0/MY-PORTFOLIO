@@ -33,6 +33,7 @@
 #header .profile__photo{
     object-fit: contain;
     filter: grayscale(100%);
+    margin-top: 2rem; 
 }
 
 .facts__wrapper {
