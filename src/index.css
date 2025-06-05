@@ -248,3 +248,13 @@ img {
   margin-bottom: 40px;
   text-align: center;
 }
+section {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Align content to the top */
+  padding-top: 3rem;           /* Add space from the top */
+  padding-bottom: 2rem;        /* Optional: space at the bottom */
+  margin: 0;
+}
+

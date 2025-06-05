@@ -271,24 +271,17 @@ export const skills = [
 export const contactInfo = [
   {
     name: "Email",
-    value: "mradinuba@gmail.com",
-    link: "mailto:mradinuba@gmail.com",
+    value: "gamagesupun001@gmail.com",
+    link: "https://mail.google.com/mail/?view=cm&fs=1&to=gamagesupun001@gmail.com",
     icon: emailicon,
     btnIcon: <MdOutlineEmail />,
     color: "rgb(56,115,205)",
   },
-  {
-    name: "Messenger",
-    value: "Emmanuel Eze",
-    link: "http://m.me/profile?id=profile-i",
-    icon: messengericon,
-    btnIcon: <RiMessengerLine />,
-    color: "rgb(139,74,251)",
-  },
+  
   {
     name: "WhatsApp",
-    value: "+2348149121918",
-    link: "https://api.whatsapp.com/send?phone=+2348149121918",
+    value: "+94768516106",
+    link: "https://wa.me/94768516106",
     icon: whatsappicon,
     btnIcon: <BsWhatsapp />,
     color: "rgb(38,234,112)",
@@ -296,24 +289,14 @@ export const contactInfo = [
 ];
 export const socialHandles = [
   {
-    name: "Fiverr",
-    icon: <SiFiverr />,
-    link: "",
-  },
-  {
     name: "Github",
     icon: <AiFillGithub />,
-    link: "",
+    link: "https://github.com/SupunGamage0",
   },
   {
     name: "LinkedIn",
     icon: <AiFillLinkedin />,
-    link: "",
-  },
-  {
-    name: "Youtube",
-    icon: <AiFillYoutube />,
-    link: "https://www.youtube.com/channel/UCEtnsPZQEd0l1tbr_nDQd5Q?sub_confirmation=1",
+    link: "https://www.linkedin.com/in/supungamage0",
   },
 ];
 

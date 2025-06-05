@@ -1,3 +1,15 @@
+#projects {
+  margin-top: 4rem;    /* Increase this value for more space */
+  padding-top: 2rem;   /* Add extra padding if needed */
+}
+#projects .section__wrapper {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+#projects .section__header {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
 #projects .projects__container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
