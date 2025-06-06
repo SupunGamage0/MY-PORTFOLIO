@@ -14,7 +14,7 @@ const SkillCard = ({title,data}) => {
                     <img src={list.logo} alt="" />
                 </div>
                 <div>
-                    <h4 className="skill__na">
+                    <h4 className="skill__name">
                         {list.skill}
                     </h4>
                     <small className='text__muted skill__level'>{list.level}</small>

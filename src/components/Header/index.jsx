@@ -35,7 +35,7 @@ const Header = () => {
                 <CodeBlock language={"javascript"} code={code} />
                 <div>
                 <p className="text__muted description">
-                    Hi, I'm Supun Gamage, a passionate software developer with a knack for creating innovative solutions. I love coding and am always eager to learn new technologies.
+                   "Bridging design and development to build complete, responsive, and scalable web solutions."
                 </p>
                 <Facts />
                 <SocialHandles />

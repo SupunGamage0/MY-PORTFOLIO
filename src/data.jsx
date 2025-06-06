@@ -208,62 +208,106 @@ export const projects = [
 
 export const skills = [
   {
-    title: "UI/UX",
+    title: "Programming Languages",
     data: [
       {
-        skill: "Figma",
+        skill: "Java",
         level: "Experienced",
-        logo: figma,
+        note: "Booking systems",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
       },
       {
-        skill: "Sketch",
+        skill: "Python",
         level: "Intermediate",
-        logo: sketch,
-      },
-      {
-        skill: "XD",
-        level: "Intermediate",
-        logo: xd,
-      },
-    ],
-  },
-  {
-    title: "Frontend Development",
-    data: [
-      {
-        skill: "HTML",
-        level: "Experienced",
-        logo: html,
-      },
-      {
-        skill: "CSS",
-        level: "Experienced",
-        logo: css,
+        note: "Games, exam result systems",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
       },
       {
         skill: "JavaScript",
         level: "Experienced",
-        logo: javascript,
+        note: "Web and React apps",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
       },
       {
-        skill: "Tailwind",
-        level: "Intermediate",
-        logo: tailwind,
-      },
-      {
-        skill: "Bootstrap",
+        skill: "HTML",
         level: "Experienced",
-        logo: bootstrap,
+        note: "Responsive websites",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
       },
+      {
+        skill: "CSS",
+        level: "Experienced",
+        note: "Responsive websites",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+      },
+    ],
+  },
+  {
+    title: "Frameworks & Libraries",
+    data: [
       {
         skill: "React",
         level: "Experienced",
-        logo: react,
+        note: "Property management SPA",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
       },
       {
-        skill: "React Native",
+        skill: "Spring Boot",
+        level: "Intermediate",
+        note: "Ticketing system",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg",
+      },
+      {
+        skill: "Express.js",
+        level: "Intermediate",
+        note: "DressMe backend",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+      },
+    
+    ],
+  },
+  {
+    title: "UI/UX Design Tools",
+    data: [
+      {
+        skill: "Figma",
         level: "Experienced",
-        logo: reactnative,
+        note: "Healthcare App UI",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
+      },
+    ],
+  },
+  {
+    title: "Tools & Platforms",
+    data: [
+      {
+        skill: "Git/GitHub",
+        level: "Experienced",
+        note: "Used in multiple projects",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+      },
+      {
+        skill: "Postman",
+        level: "Intermediate",
+        note: "API testing",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg",
+      },
+      {
+        skill: "NetBeans",
+        level: "Experienced",
+        note: "Java projects",
+        logo: "https://upload.wikimedia.org/wikipedia/commons/9/98/Apache_NetBeans_Logo.svg",
+      },
+      {
+        skill: "IntelliJ IDEA",
+        level: "Experienced",
+        note: "Java projects",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg",
+      },
+      {
+        skill: "VS Code",
+        level: "Experienced",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",
       },
     ],
   },
