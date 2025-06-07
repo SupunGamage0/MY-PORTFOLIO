@@ -69,73 +69,84 @@ export const services = [
 
 export const projects = [
   {
-    title: "AI Powered School",
+    title: "DressMe - Fashion Design App",
     image: project1,
-    category: "UI/UX",
-    description: `Transforming education with AI, our School UI Design project revolutionizes the 
-                     learning experience. Seamlessly integrating intelligent features, personalized interfaces, 
-                     and intuitive navigation, our design empowers educators and students alike. Experience 
-                     innovation at its finest as we pave the way for a smarter, more efficient educational 
-                     journey.`,
-    demoLink: "https://google.com/",
+    category: "Apps",
+    description: `A mobile app that uses AI to generate custom clothing designs, suggest outfits from photos, and recommend colors based on skin tone. Designed to be simple, stylish, and personalized.`,
+    video: "https://drive.google.com/file/d/1vLOH4wJvYikReuoNG0QWcaTJRDLnzhOf/view?usp=sharing",
+    github: "https://github.com/SupunGamage0/Fashion_Design_App",
     stacks: [
       {
-        name: "XD",
-        logo: xd,
+        name: "Node.js",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+      },
+      {
+        name: "Express.js",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+      },
+      {
+        name: "TypeScript",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+      },
+      {
+        name: "MongoDB",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+      },
+      {
+        name: "Flutter",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg",
       },
     ],
   },
   {
-    title: "E-Commerce Application",
+    title: "Property Management Website",
     image: project2,
     category: "Web",
-    description: `Enhance your online shopping experience with our E-Commerce Application 
-      UI design project. Seamlessly blending aesthetics with functionality, our intuitive 
-      interface offers easy navigation, personalized recommendations, and secure 
-      transactions. Elevate your digital storefront and captivate customers with a visually 
-      stunning design tailored to your brand`,
-    demoLink: "https://google.com/",
+    description: `A responsive Single Page Application for property search and management. Built with React, JSON, and React Widgets. Features property search, responsive design, favorites list, and security measures.`,
+    demo: "https://real-estate-app-plum.vercel.app/",
+    github: "https://github.com/SupunGamage0/RealEstate-App",
     stacks: [
       {
-        name: "ReactJs",
-        logo: react,
+        name: "React",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
       },
       {
-        name: "XD",
-        logo: xd,
+        name: "JSON",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/json/json-original.svg",
       },
       {
-        name: "CSS",
-        logo: css,
+        name: "CSS3",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+      },
+      {
+        name: "HTML5",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+      },
+    ],
+  },
+  {
+    title: "greenMart Website",
+    image: project3,
+    category: "Web",
+    description: `A responsive website focused on a UN Sustainable Development Goal (SDG), built with HTML5, CSS3, and JavaScript. Features collaborative development, accessibility compliance, and interactive elements.`,
+    demo: "https://green-mart-website.vercel.app/HTML/HomePage.html",
+    github: "https://github.com/SupunGamage0/greenMart-Website",
+    stacks: [
+      {
+        name: "HTML5",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+      },
+      {
+        name: "CSS3",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
       },
       {
         name: "JavaScript",
-        logo: javascript,
-      },
-    ],
-  },
-  {
-    title: "Robotic Engineering Web Application",
-    image: project3,
-    category: "Web",
-    description: `Unlock the future of robotics with our Robotic Engineering Web Application
-      project. Seamlessly integrating cutting-edge technology, data analytics, 
-      and collaborative tools, our platform empowers engineers to design, simulate, 
-      and optimize robotic systems. Experience innovation at its peak as we redefine the 
-      boundaries of robotic engineering.`,
-    demoLink: "https://google.com/",
-    stacks: [
-      {
-        name: "ReactJs",
-        logo: react,
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
       },
       {
-        name: "Figma",
-        logo: figma,
-      },
-      {
-        name: "Tailwind",
-        logo: tailwind,
+        name: "Git",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
       },
     ],
   },
@@ -145,7 +156,8 @@ export const projects = [
     category: "Apps",
     description: `Simplify project coordination with our intuitive Project Management application. Track tasks, collaborate in real-time, and streamline workflows effortlessly. With customizable features and robust reporting, stay organized and efficient.
                      Elevate your project management experience and achieve success with ease.`,
-    demoLink: "https://google.com/",
+    demo: "https://google.com/",
+    github: "https://github.com/yourusername/your-repo",
     stacks: [
       {
         name: "React Native",
@@ -166,7 +178,8 @@ export const projects = [
     image: project5,
     category: "UI/UX",
     description: `Experience banking at your fingertips with our sleek Mobile Bank app design. Seamlessly manage your finances on-the-go with intuitive navigation, secure transactions, and personalized insights. Enjoy a modern interface that prioritizes convenience and accessibility, revolutionizing your banking experience.`,
-    demoLink: "https://google.com/",
+    demo: "https://google.com/",
+    github: "https://github.com/yourusername/your-repo",
     stacks: [
       {
         name: "Figma",
@@ -184,7 +197,8 @@ export const projects = [
                     and captivating visuals. Empower users to test their knowledge anytime,
                      anywhere, fostering a dynamic learning environment tailored to their 
                      needs.`,
-    demoLink: "https://google.com/",
+    demo: "https://google.com/",
+    github: "https://github.com/yourusername/your-repo",
     stacks: [
       {
         name: "React Native",
@@ -229,6 +243,12 @@ export const skills = [
         logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
       },
       {
+        skill: "TypeScript",
+        level: "Intermediate",
+        note: "DressMe backend",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+      },
+      {
         skill: "HTML",
         level: "Experienced",
         note: "Responsive websites",
@@ -263,7 +283,12 @@ export const skills = [
         note: "DressMe backend",
         logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
       },
-    
+      {
+        skill: "Node.js",
+        level: "Intermediate",
+        note: "DressMe backend",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+      },
     ],
   },
   {
@@ -280,6 +305,12 @@ export const skills = [
   {
     title: "Tools & Platforms",
     data: [
+      {
+        skill: "MongoDB",
+        level: "Intermediate",
+        note: "DressMe backend",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+      },
       {
         skill: "Git/GitHub",
         level: "Experienced",

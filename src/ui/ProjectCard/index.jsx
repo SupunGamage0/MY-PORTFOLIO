@@ -1,6 +1,8 @@
+import { FaGithub } from "react-icons/fa";
+import { FaGlobe, FaPlay } from "react-icons/fa6";
 import './ProjectCard.css';
 
-const ProjectCard = ({title,category,image,description,stacks}) => {
+const ProjectCard = ({ title, category, image, description, stacks, github, demo, video }) => {
   return (
     <div className="card project__card">
         <div className="project__card-top">
@@ -25,6 +27,39 @@ const ProjectCard = ({title,category,image,description,stacks}) => {
                         <img src={stack.logo} alt="" />
                     </div>
                 ))}
+            </div>
+            <div className="project__links">
+                <a
+                href={github}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-github"
+                >
+                <FaGithub />
+                GitHub
+                </a>
+                {demo && (
+                <a
+                    href={demo}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn btn-demo"
+                >
+                    <FaGlobe />
+                    Live Demo
+                </a>
+                )}
+                {video && (
+                <a
+                    href={video}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn btn-watch"
+                >
+                    <FaPlay />
+                    Watch Demo
+                </a>
+                )}
             </div>
         </div>
     </div>
