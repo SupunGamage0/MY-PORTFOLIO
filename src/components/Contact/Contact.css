@@ -50,6 +50,18 @@
     border: solid 1px rgba(var(--card-border-rgb), 0.15);
     gap: 1.5rem;
     display: flex;
+    transition: 
+        box-shadow 0.3s cubic-bezier(0.4,0,0.2,1),
+        transform 0.3s cubic-bezier(0.4,0,0.2,1),
+        background 0.3s;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+#contact .option:hover {
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 8px 32px rgba(0,0,0,0.15);
+    background: rgba(var(--color-primary-rgb), 0.08);
+    z-index: 2;
 }
 
 #contact .contact__icon{

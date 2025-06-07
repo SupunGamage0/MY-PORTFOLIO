@@ -71,7 +71,7 @@ export const projects = [
   {
     title: "DressMe - Fashion Design App",
     image: project1,
-    category: "Apps",
+    category: "App",
     description: `A mobile app that uses AI to generate custom clothing designs, suggest outfits from photos, and recommend colors based on skin tone. Designed to be simple, stylish, and personalized.`,
     video: "https://drive.google.com/file/d/1vLOH4wJvYikReuoNG0QWcaTJRDLnzhOf/view?usp=sharing",
     github: "https://github.com/SupunGamage0/Fashion_Design_App",
@@ -151,70 +151,63 @@ export const projects = [
     ],
   },
   {
-    title: "Project Management application",
+    title: "Ticket System Simulation",
     image: project4,
-    category: "Apps",
-    description: `Simplify project coordination with our intuitive Project Management application. Track tasks, collaborate in real-time, and streamline workflows effortlessly. With customizable features and robust reporting, stay organized and efficient.
-                     Elevate your project management experience and achieve success with ease.`,
-    demo: "https://google.com/",
-    github: "https://github.com/yourusername/your-repo",
+    category: "Full Stack",
+    description: `Ticket System Simulation simulates a dynamic ticket vending and purchasing system, providing a visual and interactive experience through a React-based frontend, a robust Spring Boot backend, and a standalone Java command-line interface..
+                   Elevate your project management experience and achieve success with ease.`,
+    demo: "https://ticket-system-simulation.vercel.app/",
+    github: "https://github.com/SupunGamage0/Ticket-System-Simulation",
     stacks: [
       {
-        name: "React Native",
-        logo: reactnative,
+        name: "React",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
       },
       {
-        name: "XD",
-        logo: xd,
+        name: "Java",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
       },
       {
-        name: "CSS",
-        logo: css,
+        name: "Spring Boot",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg",
+        
+      },
+
+      {
+        name: "Postman",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg",
       },
     ],
   },
   {
-    title: "Mobile bank - App Design",
+    title: "Bookstore REST API",
     image: project5,
-    category: "UI/UX",
-    description: `Experience banking at your fingertips with our sleek Mobile Bank app design. Seamlessly manage your finances on-the-go with intuitive navigation, secure transactions, and personalized insights. Enjoy a modern interface that prioritizes convenience and accessibility, revolutionizing your banking experience.`,
-    demo: "https://google.com/",
-    github: "https://github.com/yourusername/your-repo",
+    category: "Backend", // or "API", "Java", or "Apps"
+    description: `A RESTful API for managing books, authors, customers, carts, and orders. Built with JAX-RS (Jersey), Java, and tested with Postman.`,
+    video: "https://drive.google.com/file/d/1mCv5Upq_K-Eq7gUypK-oUj1SMe0hg8x3/view?usp=sharing",
+    github: "https://github.com/SupunGamage0/Bookstore-REST-API",
     stacks: [
       {
-        name: "Figma",
-        logo: figma,
+        name: "Java",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
+      },
+      {
+        name: "Postman",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg",
       },
     ],
   },
   {
-    title: "Quiz App Development",
+    title: "NetworkFlow Algo-CW",
     image: project6,
-    category: "Apps",
-    description: `Elevate engagement and knowledge retention with our Quiz App 
-                    Development project. Seamlessly crafted for interactive learning 
-                    experiences, our app offers customizable quizzes, real-time feedback, 
-                    and captivating visuals. Empower users to test their knowledge anytime,
-                     anywhere, fostering a dynamic learning environment tailored to their 
-                     needs.`,
+    category: "Algorithm", // or "Backend" if you prefer
+    description: `This project computes the maximum flow in a directed graph using the Ford-Fulkerson algorithm (with BFS for shortest paths).`,
     demo: "https://google.com/",
-    github: "https://github.com/yourusername/your-repo",
+    github: "https://github.com/SupunGamage0/NetworkFlow-Algo-CW",
     stacks: [
       {
-        name: "React Native",
-        logo: reactnative,
-      },
-      {
-        name: "Figma",
-        logo: figma,
-      },
-      {
-        name: "XD",
-        logo: xd,
-      },
-      {
-        name: "Bootstrap",
-        logo: bootstrap,
+        name: "Java",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
       },
     ],
   },
