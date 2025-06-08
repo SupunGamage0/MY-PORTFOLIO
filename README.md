@@ -7,7 +7,7 @@ It showcases my projects, skills, experience, and ways to connect.
 
 ## 🌐 Live Demo
 
-👉 [View Portfolio]((https://supungamage-portfolio.vercel.app/))  
+👉 [View Portfolio](https://supungamage-portfolio.vercel.app/)
 
 
 ## 🚀 Features
