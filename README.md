@@ -3,10 +3,6 @@
 A sleek, modern, and responsive personal portfolio website built with **React** and **Vite**.  
 It showcases my projects, skills, experience, and ways to connect.
 
-![Portfolio Screenshot](./screenshot.png) <!-- Optional: Add a screenshot image in your repo -->
-
-## 🌐 Live Demo
-
 👉 [View Portfolio](https://supungamage-portfolio.vercel.app/)
 
 
@@ -25,4 +21,3 @@ It showcases my projects, skills, experience, and ways to connect.
 - **Vite** (v6)
 - **EmailJS**
 - **React Icons**, **React Odometer**, **Swiper**, and more
-
