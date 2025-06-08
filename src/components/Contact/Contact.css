@@ -213,7 +213,50 @@ textarea:focus{
     }
 }
 
-@media (max-width:600px){
+@media (max-width:600px) {
+  /* Reduce card width and padding */
+  .option,
+  .skill__card,
+  .project__card {
+    max-width: 320px;
+    width: 90vw;
+    margin: 0 auto 1rem auto;
+    padding: 0.8rem 0.5rem;
+    font-size: 0.95rem;
+    gap: 0.8rem;
+  }
+
+  /* Reduce icon size inside cards */
+  .option .icon__container,
+  .option svg,
+  .skill__card .icon__container,
+  .project__card .icon__container {
+    width: 28px;
+    height: 28px;
+    min-width: 28px;
+    min-height: 28px;
+  }
+
+  /* Reduce card titles and descriptions */
+  .option__title,
+  .skill__card-title,
+  .project__card-title {
+    font-size: 1.1rem;
+  }
+  .option__desc,
+  .skill__card-desc,
+  .project__card-desc {
+    font-size: 0.95rem;
+  }
+
+  /* Make contact buttons smaller */
+  .option .btn,
+  .contact__group .btn {
+    font-size: 0.95rem;
+    padding: 0.5rem 1rem;
+    min-width: 90px;
+  }
+
     #contact .contact__group{
         padding: 80px 10px;
     }

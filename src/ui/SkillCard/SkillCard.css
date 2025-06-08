@@ -80,6 +80,15 @@
   }
 }
 
+@media (max-width: 600px) {
+  .skill__card {
+    max-width: 320px;
+    width: 90vw;
+    margin: 0 auto;
+    padding: 18px 8px;
+  }
+}
+
 @media (min-width: 900px) {
   .skill__card {
     max-width: 650px;
