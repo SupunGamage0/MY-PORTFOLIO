@@ -55,4 +55,8 @@
     #header .social__handles__container{
         justify-content: center;
     }
+    #header .profile__photo {
+        margin-top: -1rem;
+        margin-bottom: 1rem;
+    }
 }

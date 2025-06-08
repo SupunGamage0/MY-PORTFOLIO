@@ -43,3 +43,51 @@
 .code__block .dot:nth-child(2){
     background: var(--color-warning);
 }
+
+@media (max-width: 768px) {
+  .code__block {
+    text-align: left !important;
+    font-size: 14px;
+    overflow-x: auto;
+    padding: 1rem;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100vw;
+    border-radius: var(--border-radius-3);
+  }
+  .code__block pre {
+    text-align: left !important;
+    white-space: pre;
+    font-size: 14px;
+    overflow-x: auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .code__block {
+    width: 100vw !important;
+    max-width: 92vw !important;
+    min-width: 0 !important;
+    box-sizing: border-box !important;
+    padding: 0.5rem 0 !important;
+    margin: 0 !important;
+    border-radius: 10px !important;
+    background: #18181b !important;
+    overflow-x: auto !important;
+  }
+  .code__block pre {
+    width: 100vw !important;
+    max-width: 100vw !important;
+    min-width: 0 !important;
+    box-sizing: border-box !important;
+    text-align: left !important;
+    white-space: pre;
+    font-size: 13px !important;
+    overflow-x: auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .code__block .dot__container {
+    padding: 0 0.5rem !important;
+  }
+}

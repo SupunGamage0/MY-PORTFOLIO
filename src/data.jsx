@@ -73,7 +73,7 @@ export const projects = [
     image: project1,
     category: "App",
     description: `A mobile app that uses AI to generate custom clothing designs, suggest outfits from photos, and recommend colors based on skin tone. Designed to be simple, stylish, and personalized.`,
-    video: "https://drive.google.com/file/d/1vLOH4wJvYikReuoNG0QWcaTJRDLnzhOf/view?usp=sharing",
+    video: "https://drive.google.com/file/d/1ILdgtpHfJGOMGRmtOQfppgAuiGADWM-q/view?usp=sharing",
     github: "https://github.com/SupunGamage0/Fashion_Design_App",
     stacks: [
       {
@@ -156,7 +156,7 @@ export const projects = [
     category: "Full Stack",
     description: `Ticket System Simulation simulates a dynamic ticket vending and purchasing system, providing a visual and interactive experience through a React-based frontend, a robust Spring Boot backend, and a standalone Java command-line interface..
                    Elevate your project management experience and achieve success with ease.`,
-    demo: "https://ticket-system-simulation.vercel.app/",
+    video: "https://drive.google.com/file/d/1H_VLn8Xkeu3VswPBVRxoIq9cXjXspCOL/view?usp=sharing",
     github: "https://github.com/SupunGamage0/Ticket-System-Simulation",
     stacks: [
       {
@@ -202,7 +202,7 @@ export const projects = [
     image: project6,
     category: "Algorithm", // or "Backend" if you prefer
     description: `This project computes the maximum flow in a directed graph using the Ford-Fulkerson algorithm (with BFS for shortest paths).`,
-    demo: "https://google.com/",
+    demo: "https://drive.google.com/file/d/1WxpBHUWRMedS68WgQvNhvOggBYYgq9Dj/view?usp=sharing",
     github: "https://github.com/SupunGamage0/NetworkFlow-Algo-CW",
     stacks: [
       {
@@ -219,7 +219,7 @@ export const skills = [
     data: [
       {
         skill: "Java",
-        level: "Experienced",
+        level: "Intermediate",
         note: "Booking systems",
         logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
       },
@@ -231,13 +231,13 @@ export const skills = [
       },
       {
         skill: "JavaScript",
-        level: "Experienced",
+        level: "Intermediate",
         note: "Web and React apps",
         logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
       },
       {
         skill: "TypeScript",
-        level: "Intermediate",
+        level: "Familiar",
         note: "DressMe backend",
         logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
       },
@@ -260,25 +260,25 @@ export const skills = [
     data: [
       {
         skill: "React",
-        level: "Experienced",
+        level: "Intermediate",
         note: "Property management SPA",
         logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
       },
       {
         skill: "Spring Boot",
-        level: "Intermediate",
+        level: "Familiar",
         note: "Ticketing system",
         logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg",
       },
       {
         skill: "Express.js",
-        level: "Intermediate",
+        level: "Familiar",
         note: "DressMe backend",
         logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
       },
       {
         skill: "Node.js",
-        level: "Intermediate",
+        level: "Beginner",
         note: "DressMe backend",
         logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
       },
@@ -312,7 +312,7 @@ export const skills = [
       },
       {
         skill: "Postman",
-        level: "Intermediate",
+        level: "Experienced",
         note: "API testing",
         logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg",
       },
@@ -368,33 +368,4 @@ export const socialHandles = [
   },
 ];
 
-export const testimonials = [
-  {
-    avatar: profile3,
-    name: "Samuel Eze",
-    review: ` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-           veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea`,
-  },
-  {
-    avatar: profile4,
-    name: "Emmanuel Joseph",
-    review: ` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-           veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea`,
-  },
-  {
-    avatar: profile5,
-    name: "Gloria Chiwendu",
-    review: ` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-           veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea`,
-  },
-  {
-    avatar: profile6,
-    name: "Precious Stone",
-    review: ` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-           veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea`,
-  },
-];
+

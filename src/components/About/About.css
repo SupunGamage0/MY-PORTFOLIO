@@ -75,8 +75,9 @@
     filter: grayscale(1);
 }
 
-#about .card__ui-item{
-    max-width: 200px;
+#about .card__ui-item {
+    max-width: 300px;   /* or your preferred size */
+    max-height: 600px;
     position: absolute;
     bottom: -50px;
     z-index: 0;
